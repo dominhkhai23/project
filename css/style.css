@@ -99,22 +99,7 @@ html {
     border-radius: 6px;
     display: none;
 }
-.modal_search-loading {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top: 60px;
-    font-size: 1.4rem;
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    display: none;
-}
-.modal_search-loading-img {
-  padding-left: 4px;
-  animation: turnAround 2s linear infinite;
-  width: 40px;
-}
+
 
 .modal_search-suggest-item {
     list-style: none;
@@ -123,11 +108,11 @@ html {
     padding-top: 20px;
     padding-bottom: 12px;
 }
-.modal_search-suggest-icon {
-    float: right;
-    padding-right: 12px;
-    font-size: 1.2rem;
+.modal_search-suggest-item:hover {
+    background-color: #000000b4;
+    color: var(--white-color);
 }
+
 
 
 .modal_search-list  {
